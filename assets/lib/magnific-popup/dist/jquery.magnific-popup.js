@@ -1141,7 +1141,6 @@ $.magnificPopup.registerModule('image', {
 						'</figcaption>'+
 					'</figure>'+
 				'</div>',
-		cursor: 'mfp-zoom-out-cur',
 		titleSrc: 'title',
 		verticalFit: true,
 		tError: '<a href="%url%">The image</a> could not be loaded.'

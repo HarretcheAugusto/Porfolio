@@ -326,7 +326,46 @@ console.log('%c Proudly Crafted with ZiOn.', 'background: #222; color: #bada55')
                 tError: 'The image could not be loaded.'
             }
         });
-                  $(".pileta").magnificPopup({
+        $(".pileta").magnificPopup({
+            delegate: 'a',
+            type: 'image',
+            gallery: {
+                enabled: true,
+                navigateByImgClick: true,
+                preload: [0,1]
+            },
+            image: {
+                titleSrc: 'title',
+                tError: 'The image could not be loaded.'
+            }
+        });
+        $(".biblioteca").magnificPopup({
+            delegate: 'a',
+            type: 'image',
+            gallery: {
+                enabled: true,
+                navigateByImgClick: true,
+                preload: [0,1]
+            },
+            image: {
+                titleSrc: 'title',
+                tError: 'The image could not be loaded.'
+            }
+        });
+                $(".centro-tecnologico").magnificPopup({
+            delegate: 'a',
+            type: 'image',
+            gallery: {
+                enabled: true,
+                navigateByImgClick: true,
+                preload: [0,1]
+            },
+            image: {
+                titleSrc: 'title',
+                tError: 'The image could not be loaded.'
+            }
+        });
+            $(".casatigre").magnificPopup({
             delegate: 'a',
             type: 'image',
             gallery: {
